@@ -219,7 +219,7 @@ async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
 # MAIN FUNCTION TO RUN THE BOT
 def main():
-    app = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+    app = ApplicationBuilder().token("8429795661:AAEAUwW6m6Cv77QLqldDj9MKVW7SltcDV9U").build()
 
     app.add_handler(CommandHandler("start", start))
     app.add_handler(CommandHandler("progress", send_progress))
